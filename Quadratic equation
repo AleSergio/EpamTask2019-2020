@@ -21,7 +21,7 @@ public class Main
 	       		x2 = -b - sqrt(d)/2*a;
 	                System.out.println("x1 = " + x1 + " " + "x2 = " + x2);
 	            } else {
-		    	x1 = -b + sqrt(d)/2*a;
+		    	x1 = -b/2*a;
 	                System.out.println("x = " + x1);
 	            }
 	    }
