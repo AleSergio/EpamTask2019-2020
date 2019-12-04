@@ -12,15 +12,16 @@ public class Main
 	        double x2;
           	//Discriminant formula
 	        d = pow(b,2) - 4*a*c;
-          	//Root formula
-	        x1 = -b + sqrt(d)/2*a;
-	        x2 = -b - sqrt(d)/2*a;
           	//Discriminant check
 	            if (d < 0){
 	                System.out.println("No roots");
 	            } else if (d > 0){
+		    	//Root formula
+	        	x1 = -b + sqrt(d)/2*a;
+	       		x2 = -b - sqrt(d)/2*a;
 	                System.out.println("x1 = " + x1 + " " + "x2 = " + x2);
 	            } else {
+		    	x1 = -b + sqrt(d)/2*a;
 	                System.out.println("x = " + x1);
 	            }
 	    }
