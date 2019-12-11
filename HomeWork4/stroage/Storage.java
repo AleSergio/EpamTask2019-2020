@@ -15,7 +15,6 @@ public class Storage {
         if (cargoCount >= cargoStorage.length) {
             Cargo[] cargoStorageC = new Cargo[cargoStorage.length];
             System.arraycopy(cargoStorage, 0, cargoStorageC, 0, cargoStorage.length);
-            cargoStorage = new Cargo[cargoStorageC.length * 2];
         }
         cargoStorage[cargoCount] = cargo;
         cargoCount++;
@@ -33,8 +32,6 @@ public class Storage {
         if (carrierCount >= carrierStorage.length) {
             Carrier[] carrierStorageC = new Carrier[carrierStorage.length];
             System.arraycopy(carrierStorage, 0, carrierStorageC, 0, carrierStorage.length);
-            carrierStorage = new Carrier[carrierStorageC.length * 2];
-  
         }
         carrierStorage[carrierCount] = carrier;
         carrierCount++;
