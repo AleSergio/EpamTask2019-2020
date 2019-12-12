@@ -5,10 +5,10 @@ import static java.lang.Math.*;
 class Solve {
     public static void main (String [] args) {
         QuadraticEquation.EquationValues equationValues = new QuadraticEquation.EquationValues(1, 4, 1);
-
+        /*
         QuadraticEquation.DiscriminantCheck discriminantCheck = new QuadraticEquation.DiscriminantCheck(equationValues);
 
-        QuadraticEquation.Calculation calculation = new QuadraticEquation.Calculation(equationValues, discriminantCheck.RootValue(), discriminantCheck.DiscriminantValue());
+        QuadraticEquation.Calculation calculation = new QuadraticEquation.Calculation(equationValues, discriminantCheck.RootValue(), discriminantCheck.DiscriminantValue());*/
 
         calculation.rootsResult();
     }
