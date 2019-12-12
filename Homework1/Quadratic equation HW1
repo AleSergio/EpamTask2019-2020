@@ -5,18 +5,16 @@ public class Main
 	public static void main(String[] args) {
 		quadro(1,4,3);
 	}
-	
+
 	    public static void quadro(float a, float b, float c){
 	        double d;
 	        double x1;
 	        double x2;
-          	//Discriminant formula
+
 	        d = pow(b,2) - 4*a*c;
-          	//Discriminant check
 	            if (d < 0){
 	                System.out.println("No roots");
 	            } else if (d > 0){
-		    	//Root formula
 	        	x1 = -b + sqrt(d)/2*a;
 	       		x2 = -b - sqrt(d)/2*a;
 	                System.out.println("x1 = " + x1 + " " + "x2 = " + x2);
