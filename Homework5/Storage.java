@@ -130,7 +130,7 @@ public class Storage {
         return null;
     }
 
-    public static String getByCarrierType(CarrierType carrierType) {
+    public static Carrier getByCarrierType(CarrierType carrierType) {
         for (Carrier carrier : carriers) {
             if (carrier != null && carrierType.equals(carrier.getCarrierType())) {
                 System.out.println(carrier);
