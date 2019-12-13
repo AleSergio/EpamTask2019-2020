@@ -49,7 +49,7 @@ public class Storage {
         }
     }
 
-    public static Cargo getAllCargos() {
+    public static void printAllCargos() {
         for (Cargo cargo : cargos) {
             if (cargo != null) {
                 System.out.println(cargo);
@@ -58,7 +58,7 @@ public class Storage {
         return null;
     }
 
-    public static Carrier getAllCarriers() {
+    public static void printAllCarriers() {
         for (Carrier carrier : carriers) {
             if (carrier != null) {
                 System.out.println(carrier);
